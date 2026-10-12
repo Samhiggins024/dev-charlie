@@ -1,33 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Tennis Tap</title>
 
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
 
-    <h1>Tennis Tap 🎾</h1>
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css"
+    />
 
-    <p>Score: <span id="score">0</span></p>
+    <link rel="stylesheet" href="assets/styles/smallstyle.css" />
+  </head>
 
-    <div id="game">
+  <body>
+    <nav>
+      <h1>
+        <i class="bi bi-circle-fill"></i>
+        Tennis Tap
+      </h1>
 
-        <div id="ball">🎾</div>
+      <a href="index.html"> Concept </a>
 
-        <div id="paddle"></div>
+      <a href="pages/fullgame.html"> Full Game </a>
 
+      <button
+        class="btn btn-light"
+        data-bs-toggle="modal"
+        data-bs-target="#instructionsModal"
+      >
+        How to Play
+      </button>
+    </nav>
+
+    <main>
+      <!-- PLAYER -->
+      <section>
+        <h2>Tennis Tap</h2>
+
+        <label for="playerName"> Name: </label>
+
+        <input type="text" id="playerName" />
+
+        <button id="nameBtn">Enter Name</button>
+
+        <p id="greeting">Welcome!</p>
+
+        <p>
+          Score:
+          <span id="score"> 0 </span>
+        </p>
+
+        <p id="dateTime"></p>
+      </section>
+
+      <!-- CONTROLS -->
+      <section>
+        <button id="startBtn">Start</button>
+
+        <button id="resetBtn">Reset</button>
+      </section>
+
+      <!-- GAME -->
+      <section>
+        <h2>Game Board</h2>
+
+        <div id="gameBoard">
+          <div id="tennisBall">🎾</div>
+
+          <div id="paddle"></div>
+        </div>
+      </section>
+
+      <!-- SCORE HISTORY -->
+      <section>
+        <h2>Your Score</h2>
+
+        <p>
+          Player:
+          <span id="scorePlayer"> --- </span>
+        </p>
+
+        <p>
+          Score:
+          <span id="lastScore"> 0 </span>
+        </p>
+
+        <p>
+          Date:
+          <span id="scoreDate"> --- </span>
+        </p>
+      </section>
+
+      <!-- LEADERBOARD -->
+      <section>
+        <h2>Leaderboard</h2>
+
+        <ol>
+          <li>Alex - 87</li>
+
+          <li>Jordan - 70</li>
+
+          <li>Sam - 24</li>
+
+          <li>Player1 - 20</li>
+        </ol>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <h3>Tennis Tap</h3>
+
+      <a href="#"> GitHub Repository </a>
+
+      |
+
+      <a href="#"> My GitHub </a>
+
+      |
+
+      <a href="#"> About </a>
+
+      <p>© 2026 Tennis Tap</p>
+    </footer>
+
+    <div class="modal fade" id="instructionsModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>How to Play</h2>
+
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <div class="modal-body">
+            <p>Move the paddle using the left and right arrow keys.</p>
+
+            <p>Keep the tennis ball from hitting the ground.</p>
+
+            <p>Each bounce earns 10 points.</p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <p>Use the LEFT and RIGHT arrow keys</p>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
-    <button id="startButton">Start Game</button>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
 
-    <script src="game-script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-</body>
-
+    <script src="assets/scripts/small-script.js"></script>
+  </body>
 </html>

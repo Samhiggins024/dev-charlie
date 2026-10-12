@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tennis Tap</title>
+    <link rel="stylesheet" href="../assets/styles/styles.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>TENNIS TAP</h1>
+
+      <div class="score">Score: <span id="score">0</span></div>
+
+      <div id="home-screen">
+        <button id="tap-button">TAP!</button>
+        <p>Keep the balls off the ground!</p>
+      </div>
+
+      <canvas id="game-board" width="800" height="500"></canvas>
+
+      <div id="game-over">
+        <h2>GAME OVER!</h2>
+        <p>Your score: <span id="final-score">0</span></p>
+        <button id="restart-button">PLAY AGAIN</button>
+      </div>
+
+      <p class="instructions">
+        Move your paddle with your mouse or the left and right arrow keys.
+      </p>
+    </div>
+
+    <script src="../assets/scripts/game-script.js"></script>
+  </body>
+</html>

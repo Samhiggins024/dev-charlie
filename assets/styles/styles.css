@@ -1,72 +1,91 @@
 body {
-    margin: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #153d2a;
+  color: white;
+  text-align: center;
+}
 
-    text-align: center;
-
-    font-family: Arial, sans-serif;
-
-    background: #eaf3e5;
+.game-container {
+  width: 800px;
+  max-width: 95%;
+  margin: 25px auto;
 }
 
 h1 {
-    color: #17452c;
+  font-size: 40px;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
 }
 
-#game {
-    position: relative;
-
-    width: 600px;
-    height: 600px;
-
-    margin: 20px auto;
-
-    background: #75a85d;
-
-    border: 5px solid #17452c;
-
-    overflow: hidden;
+.score {
+  font-size: 22px;
+  margin: 10px;
 }
 
-#ball {
-    position: absolute;
-
-    width: 45px;
-    height: 45px;
-
-    font-size: 40px;
-
-    top: 0;
-    left: 275px;
+#game-board {
+  display: none;
+  width: 100%;
+  height: auto;
+  background: #31834c;
+  border: 4px solid white;
+  box-sizing: border-box;
 }
 
-#paddle {
-    position: absolute;
-
-    width: 120px;
-    height: 15px;
-
-    bottom: 20px;
-    left: 240px;
-
-    background: white;
-
-    border: 3px solid black;
-
-    border-radius: 10px;
+#home-screen {
+  height: 500px;
+  background: #31834c;
+  border: 4px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 
-button {
-    padding: 12px 25px;
+#tap-button {
+  font-size: 70px;
+  font-weight: bold;
+  color: #153d2a;
+  background: #d7ff48;
+  border: none;
+  border-radius: 20px;
+  padding: 25px 60px;
+  cursor: pointer;
+  box-shadow: 0 8px #a5c92e;
+}
 
-    font-size: 18px;
+#tap-button:hover {
+  transform: scale(1.05);
+}
 
-    background: #17452c;
+#home-screen p {
+  font-size: 18px;
+}
 
-    color: white;
+#game-over {
+  display: none;
+  background: #31834c;
+  border: 4px solid white;
+  padding: 50px 10px;
+  box-sizing: border-box;
+}
 
-    border: none;
+#game-over h2 {
+  font-size: 38px;
+}
 
-    border-radius: 8px;
+#restart-button {
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #d7ff48;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
 
-    cursor: pointer;
+.instructions {
+  font-size: 14px;
+  color: #d7ff48;
 }
