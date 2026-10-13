@@ -35,18 +35,20 @@ The app includes two versions: Concept, which demonstrates the basic game idea, 
 
 ### code snippet
 
-- this code ... 
-
 ```js
-//here's the jq f/n to enable dragging of my car game pice. 
-$('#car').draggable({
+function startGame() {
+    score = 0;
+    balls = [];
+    spawnTimer = 0;
+    playing = true;
 
-    stop: function() {
-        carPosition = $('#car').position();
-        console.log(carPosition);           
-      }
-    }
-);
+    paddle = {
+        x: 350,
+        y: 455,
+        width: 100,
+        height: 15,
+        speed: 7
+    };
 ```
 
 
