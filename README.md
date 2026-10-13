@@ -20,11 +20,11 @@ The app includes two versions: Concept, which demonstrates the basic game idea, 
 ### wireframe & game ideas
 
 - [wiki/wireframe]https://github.com/Samhiggins024/dev-charlie/wiki/Wireframe
-- [issue/game idea]https://github.com/Samhiggins024/dev-charlie/issues/1 
+- [issue/game idea]https://github.com/Samhiggins024/dev-charlie/issues 
 
 
 ### project directory structure
-```
+
 dev-charlie-main
 |   index.html
 │   README.md
@@ -40,7 +40,6 @@ dev-charlie-main
 │           
 └───pages
         fullgame.html
-```
 ### tech stack
 
 - HTML
@@ -73,6 +72,7 @@ function startGame() {
 ### future ideas. 
 > check out Sprint 99 for future app ideaa
 
-- [milestone/sprint 99]([https://github.com/barrycumbie/bookish-doodle-charlie-game/milestone/1](https://github.com/Samhiggins024/dev-charlie/milestone/1))
+- [milestone/sprint 99](https://github.com/Samhiggins024/dev-charlie/milestones)
+
 
 
