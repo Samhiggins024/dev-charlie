@@ -1,5 +1,5 @@
 # Tennis Tap
-> short tagline
+> Keep it bouncing. Keep the points coming!
 
 ## authorship
 - [Sam Higgins](https://github.com/Samhiggins024), October 8th, 2026, Version 1.0
