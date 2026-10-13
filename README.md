@@ -24,6 +24,7 @@ The app includes two versions: Concept, which demonstrates the basic game idea, 
 
 
 ### project directory structure
+```
 dev-charlie-main
 |   index.html
 │   README.md
@@ -39,6 +40,7 @@ dev-charlie-main
 │           
 └───pages
         fullgame.html
+```
 ### tech stack
 
 - HTML
