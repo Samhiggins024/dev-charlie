@@ -10,14 +10,12 @@
 - **so that I can have a fun game to play when I want to chill out,relax and have fun.** ...
 
 ## narrative
-a bit more wordy blurb about the game...
+Get ready to test your timing with Tennis Tap! Move your paddle from side to side to keep falling tennis balls from hitting the ground. Every ball you keep in play earns you a point. Be careful, because if a ball hits the ground, the game is over! Play the Concept version to try the basic game or switch to Full Game mode for the complete experience. How high can you get your score?
 
-> lasers, shotguns, & grenades, oh my! 
-Step into adventure as the Brave Knight vs. The Dumb Dragon. Watch out for the Dragon's fart attack whilst dodging fiersome chickens. Use your arsenal to battle through increasingly harder levels. 
 
 ## about the app
-
-<! -- ### each of these as lvl-3 headings... --> 
+This is a simple game that requires little thinking but quick reaction. Tennis balls fall from the sky and you have you stop them from hitting the ground. For every ball you hit you earn a point. If the ball hits the ground you lose. The goal is to get as many points as you can!
+The app includes two versions: Concept, which demonstrates the basic game idea, and Full Game, which provides the completed gameplay experience.
 
 ### wireframe & game ideas
 
